@@ -1,0 +1,43 @@
+footer{
+	background-color: rgb(209, 238, 228);
+	width:80em ;
+	height:30em ;
+	display: flex;
+
+}
+
+
+.first{
+	margin: 2em;
+
+}
+.second{
+	margin: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+.chatt{
+	background-color: rgb(223, 61, 61);
+	color: white;
+	width: 7em;
+	height: 2.5em;
+	border: 1px solid white;
+	border-radius: 2px;
+	position: fixed;
+	margin-right: 0;
+	text-align: center;
+	
+	
+}
+.chatt:hover{
+	background-color: teal;
+}
