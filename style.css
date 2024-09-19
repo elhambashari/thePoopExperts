@@ -1,26 +1,36 @@
 footer{
-	background-color: rgb(209, 238, 228);
-	width:80em ;
-	height:30em ;
+	background-color: rgb(187, 205, 199);
+	width:72em ;
+	height:24em ;
 	display: flex;
 
 }
 
 
 .first{
-	margin: 2em;
+	margin: 2.2em;
+	padding: 1.5em;
 
+
+}
+.first > p:hover{
+	text-decoration: underline;
 }
 .second{
-	margin: 2em;
+	margin: 2.2em;
+	padding: 1.5em;
 
 }
-
-
-
-
-
-
+.second > p:hover{
+	text-decoration: underline;
+}
+.third{
+	margin: 2.2em;
+	padding: 1.5em;
+}
+.third > p:hover{
+	text-decoration: underline;
+}
 
 
 
@@ -30,14 +40,15 @@ footer{
 	color: white;
 	width: 7em;
 	height: 2.5em;
-	border: 1px solid white;
-	border-radius: 2px;
+	border: 2px solid white;
+	border-radius: 12px;
 	position: fixed;
-	margin-right: 0;
+	margin-right: 20em;
 	text-align: center;
+	margin-top: 17em;
 	
 	
 }
 .chatt:hover{
-	background-color: teal;
+	background-color: rgb(13, 84, 84);
 }
